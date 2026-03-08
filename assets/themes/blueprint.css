@@ -1,0 +1,56 @@
+/* Blueprint - 工程蓝图风 */
+.card-inner {
+  background: #163754;
+  border: 2px solid #7aa2c6;
+  box-shadow: 0 0 0 2px #ffffff inset;
+}
+
+.card-content {
+  color: #e6f0f7;
+  font-size: 40px;
+  line-height: 1.72;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 36px 36px, 36px 36px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card-content h1,
+.card-content h2,
+.card-content h3 {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.card-content h1 {
+  border-bottom: 2px dashed #dbeafe;
+  padding-bottom: 16px;
+}
+
+.card-content p,
+.card-content li {
+  color: #e6f0f7;
+}
+
+.card-content strong {
+  color: #ff6b6b;
+}
+
+.card-content blockquote {
+  background: rgba(255, 255, 255, 0.08);
+  border-left: 6px solid #ffffff;
+  color: #f8fafc;
+}
+
+.card-content code {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fef08a;
+}
+
+.card-content pre {
+  background: #0d2740;
+  color: #f1f5f9;
+  border: 2px solid #7aa2c6;
+}

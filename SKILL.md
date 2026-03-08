@@ -122,6 +122,11 @@ python scripts/render_xhs.py <markdown_file> [options]
 - `retro`：复古怀旧
 - `terminal`：终端命令行
 - `sketch`：手绘素描
+- `manga`：学习漫画风（AI-PPT 同源）
+- `ligne-claire`：清线漫画风（AI-PPT 同源）
+- `bauhaus`：包豪斯几何风（AI-PPT 同源）
+- `blueprint`：工程蓝图风（AI-PPT 同源）
+- `vintage-ad`：复古广告风（AI-PPT 同源）
 
 #### 分页模式（`--mode`）
 

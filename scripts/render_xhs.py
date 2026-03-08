@@ -63,7 +63,12 @@ AVAILABLE_THEMES = [
     'professional',
     'retro',
     'terminal',
-    'sketch'
+    'sketch',
+    'manga',
+    'ligne-claire',
+    'bauhaus',
+    'blueprint',
+    'vintage-ad'
 ]
 
 # 分页模式
@@ -171,7 +176,12 @@ def generate_cover_html(metadata: dict, theme: str, width: int, height: int) -> 
         'professional': 'linear-gradient(180deg, #2563EB 0%, #3B82F6 100%)',
         'retro': 'linear-gradient(180deg, #D35400 0%, #F39C12 100%)',
         'terminal': 'linear-gradient(180deg, #0D1117 0%, #21262D 100%)',
-        'sketch': 'linear-gradient(180deg, #555555 0%, #999999 100%)'
+        'sketch': 'linear-gradient(180deg, #555555 0%, #999999 100%)',
+        'manga': 'linear-gradient(180deg, #FFF7CC 0%, #FFE4E1 100%)',
+        'ligne-claire': 'linear-gradient(180deg, #F8FAFC 0%, #E2E8F0 100%)',
+        'bauhaus': 'linear-gradient(180deg, #FAFAFA 0%, #F1F5F9 100%)',
+        'blueprint': 'linear-gradient(180deg, #1B3A5C 0%, #244C74 100%)',
+        'vintage-ad': 'linear-gradient(180deg, #FFF8E7 0%, #F6E6C8 100%)'
     }
     bg = theme_backgrounds.get(theme, theme_backgrounds['default'])
 
@@ -185,6 +195,11 @@ def generate_cover_html(metadata: dict, theme: str, width: int, height: int) -> 
         'retro': 'linear-gradient(180deg, #8B4513 0%, #D35400 100%)',
         'terminal': 'linear-gradient(180deg, #39D353 0%, #58A6FF 100%)',
         'sketch': 'linear-gradient(180deg, #111827 0%, #6B7280 100%)',
+        'manga': 'linear-gradient(180deg, #111827 0%, #B91C1C 100%)',
+        'ligne-claire': 'linear-gradient(180deg, #0F172A 0%, #2563EB 100%)',
+        'bauhaus': 'linear-gradient(180deg, #E53935 0%, #1E88E5 100%)',
+        'blueprint': 'linear-gradient(180deg, #FFFFFF 0%, #BFDBFE 100%)',
+        'vintage-ad': 'linear-gradient(180deg, #8B4513 0%, #C0392B 100%)',
     }
     title_bg = title_gradients.get(theme, title_gradients['default'])
     
@@ -292,7 +307,12 @@ def generate_card_html(content: str, theme: str, page_number: int = 1,
         'professional': 'linear-gradient(135deg, #2563EB 0%, #3B82F6 100%)',
         'retro': 'linear-gradient(135deg, #D35400 0%, #F39C12 100%)',
         'terminal': 'linear-gradient(135deg, #0D1117 0%, #161B22 100%)',
-        'sketch': 'linear-gradient(135deg, #555555 0%, #888888 100%)'
+        'sketch': 'linear-gradient(135deg, #555555 0%, #888888 100%)',
+        'manga': 'linear-gradient(135deg, #FFF7CC 0%, #FFE4E1 100%)',
+        'ligne-claire': 'linear-gradient(135deg, #F8FAFC 0%, #E2E8F0 100%)',
+        'bauhaus': 'linear-gradient(135deg, #FAFAFA 0%, #F1F5F9 100%)',
+        'blueprint': 'linear-gradient(135deg, #1B3A5C 0%, #244C74 100%)',
+        'vintage-ad': 'linear-gradient(135deg, #FFF8E7 0%, #F6E6C8 100%)'
     }
     bg = theme_backgrounds.get(theme, theme_backgrounds['default'])
     
@@ -644,6 +664,11 @@ def main():
   retro             - 复古怀旧风格
   terminal          - 终端/命令行风格
   sketch            - 手绘素描风格
+  manga             - 学习漫画风格
+  ligne-claire      - 清线漫画风格
+  bauhaus           - 包豪斯几何风格
+  blueprint         - 工程蓝图风格
+  vintage-ad        - 复古广告风格
 
 分页模式:
   separator   - 按 --- 分隔符手动分页（默认）

@@ -1,0 +1,56 @@
+/* Bauhaus - 几何功能主义 */
+.card-inner {
+  background: #fafafa;
+  border: 5px solid #212121;
+  box-shadow: 10px 10px 0 #212121;
+}
+
+.card-content {
+  color: #212121;
+  font-size: 42px;
+  line-height: 1.68;
+}
+
+.card-content h1 {
+  color: #e53935;
+  font-size: 74px;
+  letter-spacing: 1px;
+}
+
+.card-content h2 {
+  color: #1e88e5;
+}
+
+.card-content h3 {
+  color: #212121;
+}
+
+.card-content strong {
+  color: #e53935;
+}
+
+.card-content a {
+  color: #1e88e5;
+  border-bottom: 3px solid #fdd835;
+}
+
+.card-content blockquote {
+  background: #fef9c3;
+  border-left: 8px solid #212121;
+  border-radius: 0;
+}
+
+.card-content li::marker {
+  color: #e53935;
+}
+
+.card-content code {
+  background: #1f2937;
+  color: #fdd835;
+}
+
+.card-content pre {
+  background: #212121;
+  border: 3px solid #e53935;
+  color: #fafafa;
+}

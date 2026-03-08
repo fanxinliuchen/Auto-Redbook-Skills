@@ -1,0 +1,50 @@
+/* Ligne Claire - 清线漫画风 */
+.card-inner {
+  background: #fffefb;
+  border: 2px solid #d1d5db;
+  box-shadow: none;
+}
+
+.card-content {
+  color: #374151;
+  font-size: 41px;
+  line-height: 1.72;
+}
+
+.card-content h1,
+.card-content h2,
+.card-content h3 {
+  color: #111827;
+  font-weight: 700;
+}
+
+.card-content h1 {
+  border-left: 10px solid #2563eb;
+  padding-left: 20px;
+}
+
+.card-content p,
+.card-content li {
+  color: #374151;
+}
+
+.card-content blockquote {
+  background: #eff6ff;
+  border-left: 6px solid #2563eb;
+  border-radius: 0 10px 10px 0;
+}
+
+.card-content strong {
+  color: #1d4ed8;
+}
+
+.card-content code {
+  background: #f3f4f6;
+  color: #1f2937;
+}
+
+.card-content pre {
+  background: #f8fafc;
+  color: #111827;
+  border: 2px solid #d1d5db;
+}
